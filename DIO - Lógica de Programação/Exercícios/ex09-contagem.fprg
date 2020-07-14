@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rukas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-08 04:49:11 &#21320;&#24460;"/>
+        <attribute name="created" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MTE6NTE6MjEg5Y2I5YmNOzQ1MDk4"/>
+        <attribute name="edited" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MDQ6NDk6MTEg5Y2I5b6MOzI7NDg2MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="20"/>
+            <while expression="numero &lt;= limite">
+                <output expression="&quot;Contagem est&#225; em: &quot; &amp; numero" newline="True"/>
+                <assign variable="numero" expression="numero + 2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

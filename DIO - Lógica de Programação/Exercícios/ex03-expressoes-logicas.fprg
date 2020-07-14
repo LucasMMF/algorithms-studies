@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rukas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-08 10:54:08 &#21320;&#21069;"/>
+        <attribute name="created" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MTA6NTA6MDcg5Y2I5YmNOzQ1MTAw"/>
+        <attribute name="edited" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MTA6NTQ6MDgg5Y2I5YmNOzE7NDUyMTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="1"/>
+            <assign variable="B" expression="1"/>
+            <assign variable="C" expression="3"/>
+            <output expression="&quot;A &#233; maior que 3? &quot; &amp; (A &gt; 3)" newline="True"/>
+            <output expression="&quot;A &#233; menor que 3? &quot; &amp; (A &lt; 3)" newline="True"/>
+            <output expression="&quot;A &#233; igual a B? &quot; &amp; (A == B)" newline="True"/>
+            <output expression="&quot;A &#233; menor ou igual a B? &quot; &amp; (A &lt;= B)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

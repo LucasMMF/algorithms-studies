@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rukas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-08 11:19:31 &#21320;&#21069;"/>
+        <attribute name="created" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MTE6MTI6NTMg5Y2I5YmNOzQ1MTAw"/>
+        <attribute name="edited" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MTE6MTk6MzEg5Y2I5YmNOzE7NDUyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jan, fev, mar, abril, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor de vendas que o vendedor realizou em Janeiro: &quot;" newline="True"/>
+            <input variable="jan"/>
+            <output expression="&quot;Digite o valor de vendas que o vendedor realizou em Fevereiro: &quot;" newline="True"/>
+            <input variable="fev"/>
+            <output expression="&quot;Digite o valor de vendas que o vendedor realizou em Mar&#231;o: &quot;" newline="True"/>
+            <input variable="mar"/>
+            <output expression="&quot;Digite o valor de vendas que o vendedor realizou em Abril: &quot;" newline="True"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(jan + fev + mar + abril) / 4"/>
+            <if expression="media &gt; 5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! O vendedor realizou R$&quot; &amp; media &amp; &quot; em vendas, ganhou 10% de abono!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O vendedor realizou R$&quot; &amp; media &amp; &quot; em vendas, ganhou 3% de abono.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

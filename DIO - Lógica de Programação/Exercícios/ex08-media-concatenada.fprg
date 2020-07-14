@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rukas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-08 04:47:08 &#21320;&#24460;"/>
+        <attribute name="created" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MDQ6NDI6NTIg5Y2I5b6MOzQ4NDk1"/>
+        <attribute name="edited" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MDQ6NDc6MDgg5Y2I5b6MOzE7NDg2MDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="aluno" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o nome do aluno: &quot;" newline="True"/>
+            <input variable="aluno"/>
+            <output expression="&quot;Digite a nota 1 dele: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a nota 2 dele: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a nota 3 dele: &quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite a nota 4 dele: &quot;" newline="True"/>
+            <input variable="nota4"/>
+            <output expression="&quot;Calculando m&#233;dia...&quot;" newline="True"/>
+            <assign variable="media" expression="(nota1 + nota2 + nota3 + nota4) / 4"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;O aluno &quot; &amp; aluno &amp; &quot; conseguiu media &quot; &amp; media &amp; &quot; e portanto foi aprovado! Parab&#233;ns!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O aluno &quot; &amp; aluno &amp; &quot; conseguiu media &quot; &amp; media &amp; &quot; e portanto foi reprovado...&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

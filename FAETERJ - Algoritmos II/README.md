@@ -1,4 +1,4 @@
-# Algoritmos das aulas de ALG1 da FAETERJ
+# Algoritmos das aulas de ALG2 da FAETERJ
  Esta pasta contém todos os meus algoritmos das aulas da turma
  de Algoritmos 2 na FAETERJ no período de 2015. Todos os algoritmos
  devem estar, no mínimo, funcionais, porém já fazem alguns anos

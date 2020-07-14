@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rukas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-08 04:56:26 &#21320;&#24460;"/>
+        <attribute name="created" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MDQ6NDk6MTQg5Y2I5b6MOzQ4NTAw"/>
+        <attribute name="edited" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDg7MDQ6NTY6MjYg5Y2I5b6MOzI7NDg2MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="operando, limite" type="Integer" array="False" size=""/>
+            <assign variable="operando" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <output expression="&quot;Tabuada de 9 &#233;: &quot;" newline="True"/>
+            <while expression="operando &lt;= limite">
+                <output expression="&quot;9 x &quot; &amp; operando &amp; &quot; = &quot; &amp; (9 * operando)" newline="True"/>
+                <assign variable="operando" expression="operando + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

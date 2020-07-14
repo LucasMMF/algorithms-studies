@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rukas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-06 05:42:01 &#21320;&#24460;"/>
+        <attribute name="created" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDY7MDU6Mjg6NTgg5Y2I5b6MOzQ4NTA0"/>
+        <attribute name="edited" value="cnVrYXM7REVTS1RPUC03MEdQOE1IOzIwMjAtMDctMDY7MDU6NDI6MDEg5Y2I5b6MOzE7NDg1OTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a nota 1&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a nota 2&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a nota 3&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite a nota 4&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <output expression="&quot;O total das notas &#233;: &quot; &amp; (nota1 + nota2 + nota3 + nota4)" newline="True"/>
+            <assign variable="media" expression="(nota1 + nota2 + nota3 + nota4) / 4"/>
+            <output expression="&quot;A m&#233;dia aritm&#233;tica &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
