@@ -1,0 +1,71 @@
+18/08/2015
+Algoritmos 2 - Junior
+
+------------------------------------------------------------------------------------------------
+Estruturas Condicionais em C
+------------------------------------------------------------------------------------------------
+
+1. Estruturas Condicionais Simples
+
+- Estruturas que direcionam decisoes de maneira direta.
+
+- Comando: (if)
+
+- Sintaxe:
+
+if(condicao)
+{
+
+	<comandos>;
+
+}
+
+
+2. Estruturas Condicionais compostas
+
+- Estruturas de decisao que possuem fluxos de decisao que podem ser direcionados atraves da "negativa" da condicao principal.
+
+- Comando: (If... Else)
+
+- Sintaxe:
+
+if(condicao)
+{
+
+	<comandos>;
+
+}
+else
+{
+
+	<comandos>;
+
+}
+
+3. Estruturas Condicionais baseadas em escolhas
+
+- Estruturas que direcionam fluxos de comandos baseadas em condicoes controladas por valores de variaveis de escolha.
+
+- Comando: (switch)
+
+- Sintaxe:
+
+switch(variavel de controle)
+{
+
+	case (valor 1): <comandos>; break;
+	case (valor 2): <comandos>; break;
+	.
+	.
+	.
+	default: <comandos>; break;
+
+}
+
+4. Expressoes com operadores condicionais
+
+- Estrutura condicional representada por uma expressao utilizando um operador ternario (?) onde eh necessaria a utilizacao de 3 argumentos:
+
+- Sintaxe:
+
+	condicao? expressao 1 : expressao 2

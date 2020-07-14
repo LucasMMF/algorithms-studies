@@ -1,0 +1,99 @@
+22/09/2015
+Algoritmos 2 - Junior
+
+-------------------------------------------------------------------------------------------------
+Estruturas de Repeticao em C/C++
+-------------------------------------------------------------------------------------------------
+
+- Conceito: eh como um parenteses, onde tudo que se encontra dentro do parenteses ira se repetir ate que a condicao seja falsa ou verdadeira (dependendo da sintaxe).
+
+
+- Tipos de estrutural:
+
+1 - Repeticao com teste no inicio da estrutura
+
+2 - Repeticao com teste no fim da estrutura
+
+3 - Repeticao com variavel de controle
+
+
+
+
+1. Repeticao com teste no inicio
+
+
+1.1. Referencia -> "Enquanto"
+
+1.2. Em C -> "While"
+
+1.3. Orientacao -> Executa um conjunto de comandos enquanto a condicao for verdadeira.
+
+1.4. Sintaxe:
+
+while (condicao)
+{
+
+	<comandos>;
+
+}
+
+funcionamento ->
+
+ - condicao
+ - Se resultado "falso" termina o laco (sem nem sequer comecar)
+ - Se verdadeiro -> executa comandos
+ - Passo 1 -> testa condicao
+
+
+2. Repeticao com teste no fim
+
+
+2.1. Referencia -> "Repita"
+
+2.2. Em C -> "do ... while"
+
+2.3. Orientacao -> idem "while"
+
+2.4. Sintaxe:
+
+do
+{
+
+	<comandos>;
+
+}while (condicao); (tem ponto e virgula no final do while do "do/while")
+
+
+2.5. Diferenca do while:
+|
+ -> Os comandos sao executados ao menos uma vez.
+
+
+
+3. Repeticao com variavel de controle
+
+
+3.1. Referencia -> "Para ... faca"
+
+3.2. Em C -> "for"
+
+3.3. Adapta-se fundamentalmente a situacoes em que o numero de interacoes eh conhecido.
+
+3.4. Sintaxe:
+
+for (inicializacao ; condicao ; incremento/decremento)
+{
+
+	<comandos>;
+
+}
+
+
+3.5. funcionamento:
+
+ - inicializacao
+ - teste de condicao
+ - se falso "for" termina
+ - se verdadeiro -> comandos
+ - incremento/decremento
+ - passo 2: continua ate condicao for falsa (ex.: for (i=1; i<= 40; i++), for ira continuar ate que i = 41).

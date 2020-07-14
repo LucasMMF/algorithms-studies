@@ -1,0 +1,76 @@
+15/09/2015
+Algoritmos 2 - Junior
+
+------------------------------------------------------------------------------------------------
+Modelo Funcoes
+
+1. Conceito
+
+- Trecho de codigo com objetivo bem definido
+
+
+
+
+2. Declaracao
+
+Tipo { int, float, double, char, char*, void}
+
+tipo [nome] (argumentos)
+
+
+
+
+3. A funcao main()
+
+- Funcao principal de um programa em C
+
+main()
+{
+
+
+
+}
+
+
+
+
+
+4. Prototipos de funcao
+
+#include...
+
+funcao ABC (argumentos);
+
+main()
+{
+
+
+}
+
+
+funcao ABC (argumentos)
+{
+
+
+}
+
+Obs.: int main(), int main(void), void main(), void main(void), main() = MESMA COISA
+
+
+
+
+
+
+5. Passagem de parametros (valor, referencia)
+
+- Sao as entradas necessarias para utilizacao no processamento das funcoes
+
+- Uma funcao pode nao ter parametro algum (ex.: main)
+
+
+
+
+
+Obs.: Funcoes podem ser tanto antes da main como depois, porem, ao colocar as funcoes depois da main voce precisara declarar os prototipos das funcoes no inicio do codigo (depois dos includes)
+
+Obs 2.: As funcoes com tipos (int, float, double, char e etc) sao funcoes que retornam valores (return), os tipos delas sao quem definem qual eh o tipo do valor a ser retornado. Funcoes void >NAO< retornam valores.
